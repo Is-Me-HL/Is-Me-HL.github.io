@@ -6,11 +6,8 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: how-to-start.jpg # Add image post (optional)
 tags: [Programming, Learn] # add tag
 ---
+*My name is HuangLu*
+_I come from China_
 
-aaaa
-s
-
-sssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssss
-
+Now,Studying at Jiangsu University.
+I'm a Java rookie.The Blogs are just a record of my own learning process.If you find out mistakes or wrong, please do not hesitate to give them instructions.Thanks.
