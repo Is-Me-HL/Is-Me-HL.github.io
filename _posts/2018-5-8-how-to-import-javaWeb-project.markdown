@@ -10,10 +10,10 @@ In the process of learning javaWeb and related B/S project development, we may n
 
 * step one
 
-  Open eclipse->File->Import->General->Existing Projects into Workspace->Browse->Select your project->finish
+Open eclipse->File->Import->General->Existing Projects into Workspace->Browse->Select your project->finish
 * step two
 
-    Click on the project name, right-click it, and then click properties.
+Click on the project name, right-click it, and then click properties.
   ![first](/assets/img/180508/first.png)
   ![second](/assets/img/180508/second.png)
   ![third](/assets/img/180508/third.png)
