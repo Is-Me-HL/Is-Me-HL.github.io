@@ -15,7 +15,7 @@ Open eclipse->File->Import->General->Existing Projects into Workspace->Browse->S
 
 Click on the project name, right-click it, and then click properties.
 
-  ![first](/assets/img/180508/first.png)
-  ![second](/assets/img/180508/second.png)
+  ![first](/assets/img/180508/first.PNG)
+  ![second](/assets/img/180508/second.PNG)
   ![third](/assets/img/180508/thrid.png)
 * step three
