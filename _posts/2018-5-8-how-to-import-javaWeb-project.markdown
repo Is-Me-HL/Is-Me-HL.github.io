@@ -15,7 +15,26 @@ Open eclipse->File->Import->General->Existing Projects into Workspace->Browse->S
 
 Click on the project name, right-click it, and then click properties.
 
-  ![first](/assets/img/180508/first.PNG)
-  ![second](/assets/img/180508/second.PNG)
-  ![third](/assets/img/180508/thrid.png)
+![first](/assets/img/180508/first.PNG)
+![second](/assets/img/180508/second.PNG)
+![third](/assets/img/180508/thrid.png)
+![fourth](/assets/img/180508/thrid.PNG)
+
 * step three
+
+Delete files with unbound identifier and import files corresponding to their own version.
+
+![fiveth](/assets/img/180508/fiveth.PNG)
+![sixth](/assets/img/180508/sixth.PNG)
+![seventh](/assets/img/180508/seventh.PNG)
+
+Now, a project is imported. But attention is, the above is only the server is different, to do the corresponding modification, may also be different JRE and so on, the same need to repeat the above steps to make corresponding changes. Just skip over here.But, after the corresponding modification. There will be some special problems. For example, the files in project are not wrong, but there will be a small red fork or a red exclamation mark on the document. The following is the perfect solution for my meeting, which is recorded below for your reference.
+
+*About red fork：*
+
+When the eclipse is basically well configured.You need to check the settings folder in the project directory.
+
+![eighth](/assets/img/180508/eighth.png)
+![ninth](/assets/img/180508/ninth.png)
+![tenth](/assets/img/180508/tenth.png)
+
