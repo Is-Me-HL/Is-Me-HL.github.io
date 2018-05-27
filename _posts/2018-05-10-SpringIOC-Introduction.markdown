@@ -18,49 +18,11 @@ tags: [Spring] # add tag
 ##### 1、Importing the basic jar package
 ![SpringIOC1](/assets/img/180510/A.png)
 ##### 2、Create entity classes
-```
-package h.l.IOC;
-
-public class User {
-	//测试方法
-	public void test() {
-		System.out.println("IOC...");
-	}
-}
-```
+![SpringFile1](/assets/img/180510/SpringFile1.PNG)
 ##### 3、Create a ApplicationContext.xml file in the SRC directory
-
-
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="
-        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-    <!--创建User对象 -->
-    <bean id="user" class="h.l.IOC.User"></bean>
-</beans>
-```
-
+![SpringFile](/assets/img/180510/SpringFile.PNG)
 ##### 4、Writing test file test
-
-```
-package h.l.IOC;
-
-import org.junit.Test;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-public class UserTest {
-	@Test
-	public void userTest(){
-		ApplicationContext context=new ClassPathXmlApplicationContext("ApplicationContext.xml");
-		User user=(User)context.getBean("user");
-		user.test();
-	}
-}
-```
+![SpringPicture](/assets/img/180510/SpringPicture.PNG)
 ##### If the test file prints IOC... It indicates that the object was created successfully.
 
 ---
@@ -68,32 +30,9 @@ public class UserTest {
 ##### 1、Importing the basic jar package
 ![SpringIOC2](/assets/img/180510/SpringIOC2.png)
 ##### 2、Create entity classes
-
-```
-package h.l.IOC;
-
-import org.springframework.stereotype.Component;
-
-@Component(value="user")
-public class User {
-	//测试方法
-	public void test() {
-		System.out.println("IOC...");
-	}
-}
-```
+![SpringAnno2](/assets/img/180510/SpringAnno2.PNG)
 ##### 3、Create a ApplicationContext.xml file in the SRC directory
-
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
-        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
-    <!-- 开启注解 扫描-->
-    <context:component-scan base-package="h.l.IOC"></context:component-scan>
-</beans>
-```
+![SpringAnno3](/assets/img/180510/SpringAnno3.PNG)
 ##### 4、Test same
+![SpringPicture](/assets/img/180510/SpringPicture.PNG)
 ##### User objects can also be created through these methods. This is the two basic way for IOC to create objects.
