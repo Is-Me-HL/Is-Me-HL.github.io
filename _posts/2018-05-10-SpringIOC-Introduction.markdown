@@ -19,17 +19,13 @@ tags: [Spring] # add tag
 ![SpringIOC1](/assets/img/180510/A.png)
 ##### 2、Create entity classes
 
-```
-package h.l.IOC;
-
-public class User {
-	//测试方法
-	public void test() {
-		System.out.println("IOC...");
-	}
-}
-```
-
+    <?xml version="1.0" encoding="UTF-8"?><beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
+    <!-- 开启注解 扫描-->
+    <context:component-scan base-package="h.l.IOC"></context:component-scan></beans>
 ##### 3、Create a ApplicationContext.xml file in the SRC directory
 
 
