@@ -8,16 +8,16 @@ tags: [Spring] # add tag
 ---
 ### Spring声明式事务管理(注解方式)：
 #### 第一步：配置事务管理器
-![SpringTxanno1]()
+![SpringTxanno1](/assets/img/180510/SpringTxanno1.JPG)
 #### 第二步：配置事务注解
-![SpringTxanno2]()
+![SpringTxanno2](/assets/img/180510/SpringTxanno2.JPG)
 #### 第三步：要在使用事务的方法所在类上面添加注解
-![SpringTxanno3]()
+![SpringTxanno3](/assets/img/180510/SpringTxanno3.JPG)
 
 ### Spring声明式事务管理(配置文件方式)：
 #### 第一步：配置事务管理器
-![SpringTxanno1]()
+![SpringTxanno1](/assets/img/180510/SpringTxanno1.JPG)
 #### 第二步：配置事务增强
-![SpringTx1]()
+![SpringTx1](/assets/img/180510/SpringTx1.JPG)
 #### 第三步：配置切面
-![SpringTx2]()
+![SpringTx2](/assets/img/180510/SpringTx2.JPG)
