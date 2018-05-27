@@ -16,7 +16,7 @@ tags: [Spring] # add tag
 
 #### IOC Configuration file creation object：
 ##### 1、Importing the basic jar package
-![SpringIOC1](/assets/img/180510/SpringIOC1.JPG)
+![SpringIOC1](/assets/img/180510/A.png)
 ##### 2、Create entity classes
 
 ```
@@ -65,7 +65,7 @@ public class UserTest {
 ---
 #### IOC Create objects by annotation：
 ##### 1、Importing the basic jar package
-![SpringIOC2](/assets/img/180510/SpringIOC2.JPG)
+![SpringIOC2](/assets/img/180510/SpringIOC2.png)
 ##### 2、Create entity classes
 
 ```
