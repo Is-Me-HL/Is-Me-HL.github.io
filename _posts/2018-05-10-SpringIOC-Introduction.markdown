@@ -19,7 +19,7 @@ tags: [Spring] # add tag
 ![SpringIOC1](/assets/img/180510/A.png)
 ##### 2、Create entity classes
 
-<code>
+```
 package h.l.IOC;
 
 public class User {
@@ -28,8 +28,10 @@ public class User {
 		System.out.println("IOC...");
 	}
 }
-</code>
+```
+
 ##### 3、Create a ApplicationContext.xml file in the SRC directory
+
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -42,6 +44,7 @@ public class User {
     <bean id="user" class="h.l.IOC.User"></bean>
 </beans>
 ```
+
 ##### 4、Writing test file test
 
 ```
