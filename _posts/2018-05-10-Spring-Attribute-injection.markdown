@@ -27,4 +27,5 @@ tags: [Spring] # add tag
 ---
 ##### Similarly, with configuration file injection, Spring also provides annotations for injection.
 ![ZhuRu7](/assets/img/180510/ZhuRu7.PNG)
+
 ![ZhuRu8](/assets/img/180510/ZhuRu8.PNG)
