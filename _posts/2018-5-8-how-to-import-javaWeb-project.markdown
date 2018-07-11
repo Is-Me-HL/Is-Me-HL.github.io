@@ -18,7 +18,7 @@ Click on the project name, right-click it, and then click properties.
 ![afirst](/assets/img/180508/first.PNG)
 ![asecond](/assets/img/180508/second.PNG)
 ![athird](/assets/img/180508/thrid.png)
-![afourth](/assets/img/180508/thrid.PNG)
+![afourth](/assets/img/180508/fourth.PNG)
 
 * step three
 
